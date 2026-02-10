@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", 19314304))
 API_HASH = getenv("API_HASH", "2594c5bbf625af185fa56f1281b8dfdb")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8255299588:AAHHqdgU1CL7WmtzjdWIHTpNYAel2VBIdHU")
+BOT_TOKEN = getenv("BOT_TOKEN", "8582386974:AAFW341uSg87YGEFp2A8QJk5PoVbSpYIfC4")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://I-LOVE-PDF-BOT:I-LOVE-PDF-BOT@cluster0.c51o3a9.mongodb.net/?retryWrites=true&w=majority")
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://I-LOVE-PDF-BOT:I-LOVE-PDF-B
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1003860178511"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1003733332310"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6289852377"))
+OWNER_ID = int(getenv("OWNER_ID", "8559583453"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,19 +32,19 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", "30DxNexGenBots5f5b72") # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
+API_KEY = getenv("API_KEY", "30DxNexGenBotsf08485") # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gokukhan1/Armusic",
+    "https://github.com/Gokukhan1/Vegetafrind",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/team_spirit_network")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+-KWVQ5mS6Ag1YTdl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sikio_support")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/sikio_supporter")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
