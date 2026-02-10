@@ -50,7 +50,7 @@
 
         "description": "A Bot's token from Botfather",
 
-        "value": "8255299588:AAHHqdgU1CL7WmtzjdWIHTpNYAel2VBIdHU",
+        "value": "8582386974:AAFW341uSg87YGEFp2A8QJk5PoVbSpYIfC4",
 
         "required": true
 
@@ -70,7 +70,7 @@
 
         "description": "The user id of user whom you would like to add as OWNER.",
 
-        "value": "6289852377",
+        "value": "8559583453",
 
         "required": true
 
@@ -101,7 +101,7 @@
 
         "description": "Your API key from console.nexgenbots.xyz",
 
-        "value": "30DxNexGenBots5f5b72",
+        "value": "30DxNexGenBotsf08485",
 
         "required": true
 
@@ -111,7 +111,7 @@
 
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
 
-        "value": "-1003860178511",
+        "value": "-1003733332310",
 
         "required": true
 
