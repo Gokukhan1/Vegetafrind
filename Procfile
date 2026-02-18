@@ -1,3 +1,4 @@
 worker: bash start
-worker: jerry.py
+worker2: python3 jerry.py
+
 
